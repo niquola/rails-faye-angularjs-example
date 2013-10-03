@@ -1,0 +1,8 @@
+== Simple chat using faye rails & angularjs
+
+* bunlde install
+* ruby faye.rb
+* rails s
+* rackup faye.ru -s thin -E production
+* localhost:3000/
+

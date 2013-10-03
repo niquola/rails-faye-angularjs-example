@@ -1,0 +1,12 @@
+!!!
+%html
+  %head
+    %title Sock
+    = stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true
+    %script(src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js")
+    %script(type="text/javascript" src="http://localhost:9292/faye/client.js")
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+    = csrf_meta_tags
+  %body(ng-app="app")
+    %h1 Rails Faye Angularjs
+    = yield
